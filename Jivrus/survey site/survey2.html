@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Page 2</title>
+</head>
+<body>
+ 
+    <form action="submit.html">
+        <h1>Reading Interest Survey</h1>
+        <ol start="7">
+            <li>
+                <label for="medium">What medium do you choose to read from?</label><br>
+                <input type="checkbox" name="printBook" id="printBook">
+                <label for="printBook">Print Book</label><br>
+                <input type="checkbox" name="Ebook" id="Ebook">
+                <label for="Ebook">E-Book</label><br>
+                <input type="checkbox" name="Magazines" id="Magazines">
+                <label for="Magazines">Magazines</label><br>
+                <input type="checkbox" name="Newspaper" id="Newspaper">
+                <label for="Newspaper"> Newspaper</label><br>
+                <input type="checkbox" name="Website" id="Website">
+                <label for="Website">Website</label><br>
+                <input type="checkbox" name="Other" id="Other">
+                <label for="Other">Other</label>
+            </li>
+            <li><label for="readingFrequency">
+                How often do you read?
+            </label><br>
+        <select name="readingFrequency" id="readingFrequency">
+            <option value="Never">Never</option>
+            <option value="weekly">Weekly</option>
+            <option value="Monthly">Monthly</option>
+            
+        </select>
+    </li>
+    <li>
+        <label for="time">How much time do you spend reading?</label><br>
+        <select name="time" id="time">
+            <option value="forced">I do not read, unless forced to</option>
+            <option value="1hour">1 hour daily</option>
+            <option value="2hour">2 hours daily</option>
+        </select>
+    </li>
+    <li>
+        <label for="fill">Please complete the following sentence, I would read more often if:</label>
+        <br>
+        <textarea name="fill" id="fill" cols="15" rows="3" placeholder="Enter your answer"></textarea>
+    </li>
+    <li>
+        <label for="age">Please select your age group</label><br>
+        <select name="age" id="age">
+            <option value="25-34">25-34</option>
+            <option value="35-44">35-44</option>
+            <option value="45-54">45-54</option>
+        </select>
+    </li>
+    <li>
+        <label for="gender">Please select your gender</label><br>
+        <input type="radio" name="Male" id="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" name="Female" id="gender">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="Others" id="gender">
+        <label for="Others">Others</label><br>
+        <input type="radio" name="prefer not to say" id="gender">
+        <label for="prefer not to say">prefer not to say</label>
+    </li>
+
+        </ol>
+        <section>
+            <button type="submit">Submit</button><br>
+            <button type="button"><a href="index.html">Back</a></button>
+        </section>
+        
+    </form>
+ 
+</body>
+</html>

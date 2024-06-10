@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://images.pexels.com/photos/9572703/pexels-photo-9572703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div, form{
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 65vw;
+    
+
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+button{margin-top: 10px;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+a{
+    text-decoration: none;
+}

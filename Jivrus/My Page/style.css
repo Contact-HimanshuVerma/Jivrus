@@ -1,0 +1,83 @@
+body{margin:0;}
+li{
+  display:inline;
+  
+  margin-right:10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display:inline;
+}
+
+header{display:flex;
+justify-content:space-between;}
+
+header span{
+  background-color:grey;
+  padding:10px;
+}
+
+.education_page{
+background-color: white;
+padding:10px;
+}
+
+.index{
+  padding-left:40px;
+  padding-top:20px;
+  background-image:url("https://lh5.googleusercontent.com/uP1wPzTzpjQS0WQDXZTN4YjnzZ-MJjkjLANSdpxtC7I52YA8rXu_No3BinvO476cyLWo3y8Jmaweucf6mMpC3go=w1280");
+  height:250px;
+  color:white;
+  
+}
+
+section{
+  padding-top:15px;
+  display:flex;
+  justify-content:space-around;
+}
+table{
+  border: 1px solid #ddd;
+  }
+
+td{
+  padding:0 60px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.education_main{
+ background-image: url(" https://wallpapercave.com/wp/wp4411792.jpg");
+ height: 650px;
+ display: flex;
+  justify-content: center;
+ align-items: center;
+
+
+}
+
+
+
+
+
+.Skills_main{
+  background-image: url(" https://wallpapercave.com/wp/wp4411792.jpg");
+  height: 650px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+
+}
+
+footer p{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
